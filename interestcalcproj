@@ -1,0 +1,65 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+
+
+
+
+int main()
+
+{
+
+
+
+   double principal1;
+
+   double rate1;
+
+   double time1;
+
+   double a;
+
+
+
+  cout << "Hi I am your basic interest calculator, please type in the Principal" << endl;
+
+
+
+  cin >> principal1;
+
+
+
+  cout << "Now please type rate in decimal" <<endl;
+
+
+
+  cin >> rate1;
+
+
+
+  cout << "Now please type time in years" <<endl;
+
+
+
+  cin >> time1;
+
+
+
+  a = principal1*rate1*time1;
+
+
+
+  cout << " The interest is $ " << a << endl;
+
+
+
+
+
+  return 0;
+
+}
